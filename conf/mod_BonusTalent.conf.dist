@@ -1,0 +1,21 @@
+[worldserver]
+
+#    Enable the module
+#        Default:     Enabled  = 1
+#                     Disabled = 0
+
+BonusTalent.Enable = 1
+
+#    Announce the module
+#        Default:     Enabled  = 1
+#                     Disabled = 0
+
+BonusTalent.Announce = 1
+
+#    Set item's max BonusTalent
+#        Description: Max BonusTalent the Item can be used up to
+#		 Example: Corresponding to levels 10-20, 20-30, 30-40, 40-50, 50-60, 60-70, 70-80, respectively = "5;10;15;20;25;30;40"
+#        Default:     Enabled = "5;10;15;20;25;30;40"
+
+#BonusTalent.MaxBonusTalent = 60
+BonusTalent.MaxBonusTalent = "5;10;15;20;25;30;40"
